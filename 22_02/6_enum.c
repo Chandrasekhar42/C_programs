@@ -3,10 +3,13 @@ int main()
 {
 	struct student
 	{
-		enum week {sunday,monday,tuesday,wednesday,thursday,friday,saturday};
+		enum week
+                {
+			sunday,monday,tuesday,wednesday,thursday,friday,saturday
+		}a;
 		
-	};
-        typedef struct student s1;
+	}s;
+        
 
 	printf("%ld",sizeof(struct student));
 }
